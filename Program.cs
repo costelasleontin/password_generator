@@ -72,7 +72,7 @@ for (int i = 0; i < passLength; i++)
     else
     {
         int charType = rand.Next(2, 5); //pick either 1-special char, 2 - number, 3-lower case letter, 4 - upper case letter
-        switch (charType)  //could use refactoring and put the 3 cases in a diferent metod  but  the  app is simple and some duplicated code isn't a big problem
+        switch (charType)  //could use refactoring and put the 3 cases in a diferent metode  but  the  app is simple and some duplicated code isn't a big problem
         {
             case 2:
                 password.Append((char)rand.Next(48, 58)); //generate number
